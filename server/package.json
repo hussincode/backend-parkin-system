@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node --loader ts-node/esm index-prod.ts",
     "dev": "node --loader ts-node/esm index-dev.ts",
-    "build": "tsc -p ..",
+    "build": "tsc -p tsconfig.build.json",
     "lint": "echo \"No linter configured\""
   },
   "engines": {
